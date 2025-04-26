@@ -1,12 +1,12 @@
 class Alumno {
-    constructor(username, dni, edad) {
-      this.username = username;
+    constructor(nombre, dni, edad) {
+      this.nombre = nombre;
       this.dni = dni;
       this.edad = edad;
     }
     
     toString() {
-      return `username=${this.username}, DNI=${this.dni}, edad=${this.edad}`;
+      return `nombre=${this.nombre}, DNI=${this.dni}, edad=${this.edad}`;
     }
   }
 
